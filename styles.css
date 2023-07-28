@@ -1,0 +1,748 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes text_large {
+    0% {
+        width: 100px;
+        height: 20px;
+        background-color: rgba(rgb(101, 35, 187), green, blue, alpha)
+    }
+
+    100% {
+        width: 120px;
+        height: 25px;
+        background-color: rgb(rgb(90, 24, 83), green, blue);
+    }
+}
+
+@keyframes welcome_text {
+    0% {
+        color: red;
+    }
+
+    5% {
+        color: aquamarine;
+    }
+
+    10% {
+        color: salmon;
+    }
+
+    15% {
+        color: darkorchid;
+    }
+
+    20% {
+        color: slategrey;
+    }
+
+    25% {
+        color: firebrick;
+    }
+
+    30% {
+        color: navy;
+    }
+
+    35% {
+        color: aqua;
+    }
+
+    40% {
+        color: hotpink;
+    }
+
+    45% {
+        color: indianred;
+    }
+
+    50% {
+        color: navajowhite;
+    }
+
+    55% {
+        color: rgb(90, 24, 83);
+    }
+
+    60% {
+        color: rgba(red, rgb(93, 74, 93), blue, alpha);
+    }
+
+    65% {
+        color: darkslategrey;
+    }
+
+    70% {
+        color: mediumspringgreen;
+    }
+
+    75% {
+        color: mediumturquoise;
+    }
+
+    80% {
+        color: slateblue;
+    }
+
+    85% {
+        color: plum;
+    }
+
+    90% {
+        color: darkolivegreen;
+    }
+
+    95% {
+        color: aquamarine;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.black_line {
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+}
+
+.website_name {
+    text-align: center;
+}
+
+h1.online {
+    font-family: 'Yeseva One', cursive;
+    color: red;
+}
+
+.navigation {
+    height: 100px;
+    width: 100vw;
+    border: 2px solid black;
+    background-color: gray;
+    margin-top: 5px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation_favicon {
+    margin: 0px 0px 15px 0px;
+}
+
+li {
+    display: inline;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+ul li:hover {
+    background-color: cyan;
+    border: 2px solid black;
+}
+
+.main_1 {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.main_1_text>h1 {
+    animation-name: welcome_text;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+}
+
+.main_1_order_text {
+    color: black;
+    background-color: yellow;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.main_image {
+    background-image: url("images/light_background_image.jpg");
+    height: 200px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.main_1_image {
+    width: 150px;
+    padding: 2px;
+    margin: 20px;
+    border: 2px solid rebeccapurple;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline;
+    text-align: end;
+    border-radius: 25px;
+}
+
+.feature_product_heading {
+    color: red;
+}
+
+.feature_product_image {
+    position: relative;
+}
+
+.feature_product_image_1 {
+    height: 400px;
+    width: 90vw;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+
+.feature_product_heading_horizontal_rule {
+    border-style: 2px solid red;
+}
+
+.feature_product_image_2 {
+    height: 400px;
+    width: 43.5vw;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+    margin: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+}
+
+.feature_product_text_1 {
+    position: absolute;
+    top: 381px;
+    left: 547px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.feature_product_text_2 {
+    position: absolute;
+    top: 381px;
+    left: 248px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.feature_product_text_3 {
+    position: absolute;
+    top: 381px;
+    left: 870px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.feature_product_text_1:hover {
+    background-color: cyan;
+    border: 2px solid black;
+    animation-name: text_large;
+    animation-duration: 2s;
+}
+
+.feature_product_text_2:hover {
+    background-color: cyan;
+    animation-name: text_large;
+    animation-duration: 2s;
+    border: 2px solid black;
+}
+
+.feature_product_text_3:hover {
+    background-color: cyan;
+    animation-name: text_large;
+    animation-duration: 2s;
+    border: 2px solid black;
+}
+.food_order_in_heading {
+    position: relative;
+    left: 23px;
+    top: 12px;
+    padding: 14px;
+    font-size: 30px;
+}
+.top_brand_symbol{
+    margin:20px;
+    display:flex;
+    box-sizing: border-box;
+}
+.top_brand_symbols_align{
+    width:25%;
+    height:150px;
+    margin:30px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.top_brand_symbols_align>p{
+    text-align:center;
+}
+.top_brand_symbols_align p:not(.top_brand_symbols_align_set_para) {
+    font-size: 20px;
+    font-weight: bold;
+}
+.top_brand_symbols_align_set_para{
+    color:black;
+}
+.top_brand_symbols_align_set{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    border-radius:100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.top_brands_heading{
+    position: relative;
+    left: 23px;
+    top: 12px;
+    padding: 14px;
+    font-size: 30px;
+}
+.food_order_in_image {
+    display: flex;
+    justify-content: space-between;
+    /* This will evenly distribute the images along the line */
+    align-items: center;
+    padding:40px 40px 0 40px;
+    /* This will vertically center the images within their container */
+}
+
+.food_order_in_image_1 {
+    width: 375px;
+    margin: 10px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.food_order_in_text_1 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -1895px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+
+.food_order_in_text_2 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 457px;
+bottom: -1899px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+
+.food_order_in_text_3 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom:-1894px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+
+.hotel_name {
+    width: 96.5vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding:0 15px;
+}
+
+.hotel_name_item {
+    flex-basis: 31.5%;
+    margin: 0 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+}
+.rating-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.rating {
+    background-color: rgb(71, 163, 71);
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+}
+
+.rating_star {
+    width: 15px;
+}
+.hotel_name_description{
+     width: 96.5vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:20px;
+}
+ .hotel_name_item_description{
+    flex-basis: 31.5%;
+    margin: 0 2px;
+    padding: -3px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(107, 104, 104);
+    font-size:15px;
+ }
+ .food_order_in_text_4 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -2255px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_5 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 457px;
+    bottom: -2255px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_6 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom: -2255px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_7{
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -2609px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_8{
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 457px;
+    bottom: -2609px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_9{
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom: -2609px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_10 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -2974px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_11 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 457px;
+    bottom: -2974px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_12 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom: -2974px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_13 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -3331px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_14 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left:457px;
+    bottom: -3331px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_15 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom: -3331px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_16 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -3709px;
+    /* Adjust this value to position the paragraph */
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_17 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 457px;
+    bottom: -3709px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_18 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom: -3709px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_19 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 54px;
+    bottom: -4080px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_20 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 457px;
+    bottom: -4080px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_text_21 {
+    position: absolute;
+    background-color: rgb(87, 87, 163);
+    left: 860px;
+    bottom: -4080px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.food_order_in_image_1_not_avaiable{
+    width: 375px;
+    margin: 10px;
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+    border-radius: 10px;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.rating_black_white{
+    background-color: rgb(71, 163, 71);
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.hotel_name_description_open_closed{
+    width: 96.5vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.time{
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+.fotter {
+    text-align: center;
+}
+.open_closed{
+    color:red;
+}
+.price{
+    color: rgb(107,104,104);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+.site-footer {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info, .social-links, .newsletter, .opening-hours {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p, .social-links ul, .newsletter form, .opening-hours p {
+    color: #666;
+    margin: 8px 0;
+  }
+  
+  .social-links ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin-right: 15px;
+  }
+  
+  .social-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #00bfff;
+  }
+  
+  .newsletter form {
+    display: flex;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .newsletter button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .bottom-footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .bottom-footer p {
+    margin: 8px 0;
+  }
