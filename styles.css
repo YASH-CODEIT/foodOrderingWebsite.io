@@ -18,10 +18,10 @@
 }
 @keyframes  background_image_change{
     0%{
-        background-image:url("images/pizza_1.jpg");
+        background-image:url("images/background_image_1.jpg");
     }
     25%{
-        background-image:url("images/leg_piece.jpg");
+        background-image:url("images/background_image_3.jpg");
     }
     50%{
         background-image: url("images/background_image_2.jpg");
