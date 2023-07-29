@@ -16,7 +16,23 @@
         background-color: rgb(rgb(90, 24, 83), green, blue);
     }
 }
-
+@keyframes  background_image_change{
+0%{
+    background-image:url("images/pizza_1.jpg");
+}
+25%{
+    background-image:url("images/background_image_3.jpg");
+}
+50%{
+    background-image: url("images/background_image_2.jpg");
+}
+75%{
+    background-image: url("images/good_bowl.jpg");
+}
+100%{
+    background-image:url("images/background_image_1.jpg");
+}
+}
 @keyframes welcome_text {
     0% {
         color: red;
@@ -162,19 +178,27 @@ ul li:hover {
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
 }
-
-.main_1_order_text {
-    color: black;
-    background-color: yellow;
-    height: 50px;
-    padding: 15px;
+.main_image {
+    background-image: url("images/leg_piece.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 366px;
     box-sizing: border-box;
+    padding: 93px 0 0 0;
+    z-index: 0;
+    animation-name:background_image_change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-.main_image {
-    background-image: url("images/light_background_image.jpg");
-    height: 200px;
-    border-radius: 0px 0px 30px 30px;
+.main_image_text{
+    text-align:center;
+    font-size:40px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
 }
 
 .main_1_image {
@@ -189,9 +213,6 @@ ul li:hover {
     border-radius: 25px;
 }
 
-.feature_product_heading {
-    color: red;
-}
 
 .feature_product_image {
     position: relative;
@@ -341,7 +362,7 @@ ul li:hover {
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -1895px;
+    bottom: -1878px;
     color: white;
     border-radius: 0px 4px 4px 0px;
     border: 2px solid rebeccapurple;
@@ -352,7 +373,7 @@ ul li:hover {
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 457px;
-bottom: -1899px;
+bottom: -1878px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -364,7 +385,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom:-1894px;
+    bottom:-1878px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -430,7 +451,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -2255px;
+    bottom: -2237px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -441,7 +462,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 457px;
-    bottom: -2255px;
+    bottom: -2237px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -452,7 +473,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom: -2255px;
+    bottom: -2237px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -463,7 +484,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -2609px;
+    bottom: -2595px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -474,7 +495,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 457px;
-    bottom: -2609px;
+    bottom: -2595px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -485,7 +506,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom: -2609px;
+    bottom: -2595px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -496,7 +517,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -2974px;
+    bottom: -2951px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -507,7 +528,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 457px;
-    bottom: -2974px;
+    bottom: -2951px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -518,7 +539,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom: -2974px;
+    bottom: -2951px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -529,7 +550,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -3331px;
+    bottom: -3313px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -540,7 +561,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left:457px;
-    bottom: -3331px;
+    bottom: -3313px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -551,7 +572,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom: -3331px;
+    bottom: -3313px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -562,7 +583,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -3709px;
+    bottom: -3692px;
     /* Adjust this value to position the paragraph */
     color: white;
     border-radius: 0px 4px 4px 0px;
@@ -573,7 +594,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 457px;
-    bottom: -3709px;
+    bottom: -3692px;
     color: white;
     border-radius: 0px 4px 4px 0px;
     border: 2px solid rebeccapurple;
@@ -583,7 +604,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom: -3709px;
+    bottom: -3692px;
     color: white;
     border-radius: 0px 4px 4px 0px;
     border: 2px solid rebeccapurple;
@@ -593,7 +614,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 54px;
-    bottom: -4080px;
+    bottom: -4075px;
     color: white;
     border-radius: 0px 4px 4px 0px;
     border: 2px solid rebeccapurple;
@@ -603,7 +624,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 457px;
-    bottom: -4080px;
+    bottom: -4075px;
     color: white;
     border-radius: 0px 4px 4px 0px;
     border: 2px solid rebeccapurple;
@@ -613,7 +634,7 @@ bottom: -1899px;
     position: absolute;
     background-color: rgb(87, 87, 163);
     left: 860px;
-    bottom: -4080px;
+    bottom: -4075px;
     color: white;
     border-radius: 0px 4px 4px 0px;
     border: 2px solid rebeccapurple;
@@ -705,6 +726,8 @@ bottom: -1899px;
   
   .social-links li {
     margin-right: 15px;
+    padding:0;
+    border: none;
   }
   
   .social-links a {
