@@ -746,3 +746,7 @@ bottom: -1899px;
   .bottom-footer p {
     margin: 8px 0;
   }
+  .social_media_logos{
+    width:25px;
+    box-sizing: border-box;
+  }
