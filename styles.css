@@ -17,22 +17,22 @@
     }
 }
 @keyframes  background_image_change{
-0%{
-    background-image:url("images/pizza_1.jpg");
-}
-25%{
-    background-image:url("images/background_image_3.jpg");
-}
-50%{
-    background-image: url("images/background_image_2.jpg");
-}
-75%{
-    background-image: url("images/good_bowl.jpg");
-}
-100%{
-    background-image:url("images/background_image_1.jpg");
-}
-}
+    0%{
+        background-image:url("images/pizza_1.jpg");
+    }
+    25%{
+        background-image:url("images/leg_piece.jpg");
+    }
+    50%{
+        background-image: url("images/background_image_2.jpg");
+    }
+    75%{
+        background-image: url("images/good_bowl.jpg");
+    }
+    100%{
+        background-image:url("images/new_image.jpg");
+    }
+    }
 @keyframes welcome_text {
     0% {
         color: red;
@@ -190,7 +190,7 @@ ul li:hover {
     animation-name:background_image_change;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .main_image_text{
